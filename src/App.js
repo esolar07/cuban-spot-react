@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import {
   BrowserRouter,
   Route
 } from 'react-router-dom';
 import './App.css';
+import Home from './containers/Home'
+import Menu from './containers/Menu'
+import Schedule from './containers/Schedule'
+import Events from './containers/Events'
+import News from './containers/News'
+import Contact from './containers/Contact'
 
-import { Home, Menu, Schedule, Events, News, Contact } from '\components';
 
 class App extends Component {
   render() {
