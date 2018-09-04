@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = () => (
+
     <header className='header-part'>
         <div className="container">
             <div className="menu-part-outer">
@@ -29,6 +30,7 @@ const Header = () => (
             </div> 
         </div>       
     </header>
+    
 );
 
 export default Header;
